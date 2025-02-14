@@ -33,7 +33,7 @@ body{
 
 .Nav{
     max-height: 20vh;
-    background-color:var(--color-3);
+    background-color:var(--extra-light);
     display: flex;
     justify-content: space-between;
     padding: 2rem;
@@ -42,7 +42,7 @@ body{
 .nav_logo a{
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--color-4);
+    color: rgb(0, 162, 255);
   
 }
 
@@ -62,4 +62,10 @@ body{
 
 .nav_links .links:hover {
     color: var(--primary-color);
+}
+
+#home{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(95,95,235,1) 73%);
+height: 50vh;
 }
