@@ -32,8 +32,8 @@ body{
 }
 
 .Nav{
-    max-height: 20vh;
-    background-color:var(--extra-light);
+    max-height: 5vh;
+    background-color:linear-gradient(ebf4f5);
     display: flex;
     justify-content: space-between;
     padding: 2rem;
@@ -61,7 +61,8 @@ body{
 }
 
 .nav_links .links:hover {
-    color: var(--primary-color);
+    color:rgb(0, 162, 255);
+    text-decoration: underline;
 }
 
 #home{
