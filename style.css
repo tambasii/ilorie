@@ -79,7 +79,7 @@ body{
     align-items: center;
 }
 
-.img-container {
+.container_right.img-container {
     width: 400px; 
     height: 400px; 
     border-radius: 0 100px 0 0;
@@ -153,3 +153,6 @@ button.btn_right:hover{
     background-color: rgb(175, 214, 116);
 }
 
+.container_left.img-container {
+    width: ;
+}
