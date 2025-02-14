@@ -68,7 +68,7 @@ body{
 #home{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgb(92, 87, 189) 0%, rgb(50, 105, 117) 0%, rgb(97, 97, 212) 73%);
-    height: 50vh;
+    height: 80vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -109,4 +109,65 @@ h4{
 line-height: 100px;
 font-family: var(--font-1);
 font-size: 50px;
+}
+
+.btn_left{    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 2rem;
+    color: var(--extra-light);
+    font-size: 1rem;
+    background-color:transparent;
+    outline: none;
+    border: 2px solid var(--extra-light);
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn_right{    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 2rem;
+    color: var(--extra-light);
+    font-size: 1rem;
+    background-color:transparent;
+    outline: none;
+    border: 2px solid var(--extra-light);
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button.read_more{
+    background-color:var(--extra-light);
+    color: var(--text-dark);
+}
+
+
+button.our_blogs:hover{
+    background-color: var(--text-light);
+}
+
+button.our_blogs:hover{
+    background-color: var(--text-light);
+}
+
+.chevrons{
+    display: flex;
+    gap: 1rem;
+}
+
+.chevrons span{
+    height: 40px;
+    width: 40px;
+    font-size: 1.5rem;
+    color: var(--extra-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid var(--extra-light);
+    cursor: pointer;
+    transition:0.3s;
+}
+
+.chevrons span:hover{
+background-color: var(--extra-light);
 }
