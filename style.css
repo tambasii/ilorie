@@ -79,9 +79,9 @@ body{
     align-items: center;
 }
 
-.container_right.img-container {
-    width: 400px; 
-    height: 400px; 
+.img-container {
+    width: 450px; 
+    height: 500px; 
     border-radius: 0 100px 0 0;
     overflow: hidden;
     position: relative;
@@ -121,9 +121,9 @@ font-size: 50px;
     padding: 0.5rem 2rem;
     color: var(--extra-light);
     font-size: 1rem;
-    background-color:transparent;
+    background-color: orangered;
     outline: none;
-    border: 2px solid var(--extra-light);
+    border: 1px solid var(--extra-light);
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -132,9 +132,9 @@ font-size: 50px;
     padding: 0.5rem 2rem;
     color: var(--extra-light);
     font-size: 1rem;
-    background-color:transparent;
+    background-color: rgb(175, 214, 116);
     outline: none;
-    border: 2px solid var(--extra-light);
+    border: 1px solid var(--extra-light);
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -146,13 +146,29 @@ button.read_more{
 
 
 button.btn_left:hover{
-    background-color: orangered;
+    background-color:transparent;
+
 }
 
 button.btn_right:hover{
-    background-color: rgb(175, 214, 116);
+    background-color:transparent;
+
 }
 
-.container_left.img-container {
-    width: ;
+#post_home{
+    background-color: #c9cacc;
+    height: 70vh;
+    display: flex;
+ 
+}
+
+.container_left-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container_right-1{
+    
 }
