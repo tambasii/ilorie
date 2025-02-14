@@ -110,28 +110,32 @@ line-height: 100px;
 font-family: var(--font-1);
 font-size: 50px;
 }
-
-.btn_left{    display: flex;
+.btns{
+    display: flex;
     gap: 1rem;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.btn_left{ 
     padding: 0.5rem 2rem;
     color: var(--extra-light);
     font-size: 1rem;
     background-color:transparent;
     outline: none;
     border: 2px solid var(--extra-light);
-    border-radius: 2rem;
+    border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
-.btn_right{    display: flex;
-    gap: 1rem;
+.btn_right{
     padding: 0.5rem 2rem;
     color: var(--extra-light);
     font-size: 1rem;
     background-color:transparent;
     outline: none;
     border: 2px solid var(--extra-light);
-    border-radius: 2rem;
+    border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -141,33 +145,11 @@ button.read_more{
 }
 
 
-button.our_blogs:hover{
-    background-color: var(--text-light);
+button.btn_left:hover{
+    background-color: orangered;
 }
 
-button.our_blogs:hover{
-    background-color: var(--text-light);
+button.btn_right:hover{
+    background-color: rgb(175, 214, 116);
 }
 
-.chevrons{
-    display: flex;
-    gap: 1rem;
-}
-
-.chevrons span{
-    height: 40px;
-    width: 40px;
-    font-size: 1.5rem;
-    color: var(--extra-light);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    border: 2px solid var(--extra-light);
-    cursor: pointer;
-    transition:0.3s;
-}
-
-.chevrons span:hover{
-background-color: var(--extra-light);
-}
