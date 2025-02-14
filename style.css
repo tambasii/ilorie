@@ -32,18 +32,11 @@ body{
 }
 
 .Nav{
+    max-height: 20vh;
+    background-color:var(--color-3);
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    max-width:var(--max-width);
     padding: 2rem;
-    display: flex;
-    align-items: center;
-    z-index: 1;
 }
 
 .nav_logo a{
@@ -56,7 +49,6 @@ body{
 .nav_links{
     list-style: none;
     display: flex;
-    align-items: center;
     gap: 3rem ;
 }
 
