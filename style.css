@@ -118,6 +118,67 @@ body {
     background: linear-gradient(to right, var(--secondary-color), var(--accent-color));
     color: white;
 }
+.empowerment {
+    background-color: #f5f7f2;
+    padding: 80px 0;
+}
+
+.empowerment .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.empowerment-image {
+    background: white;
+    padding: 24px;
+    border-radius: 32px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.empowerment-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.empowerment-content h2 {
+    color: #0A1E3B;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.empowerment-content p {
+    color: #4a5568;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 90%;
+    letter-spacing: -0.01em;
+}
+
+@media (max-width: 768px) {
+    .empowerment .container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .empowerment-content {
+        text-align: center;
+    }
+
+    .empowerment-content p {
+        max-width: 100%;
+    }
+}
 
 /* Services Section */
 .services {
