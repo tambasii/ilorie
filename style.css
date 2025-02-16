@@ -100,14 +100,14 @@ body {
     transition: transform 0.3s;
 }
 
-.btn:hover {
-   transform: translateY(-2px);
-   background-color: transparent;
-   background-color:transparent;
-   outline: none;
-   border: 2px solid var(--extra-light);
-   border-radius: 2rem;
-}
+.btn.btn-primary:hover, .btn.btn-secondary:hover {
+    transform: translateY(-2px);
+    background-color: transparent;
+    color: white; /* Ensures the text is white */
+    border: 2px solid white; /* Narrow white border */
+    border-radius: 2rem;
+ }
+ 
 
 .btn-primary {
     background: var(--secondary-color);
