@@ -203,6 +203,8 @@ button.btn_right:hover{
     line-height: 30px;
 }
 
+
+
 #Our_services{
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,233,209,1) 27%);
@@ -212,4 +214,67 @@ button.btn_right:hover{
     color: orange;
     font-size: 50px;
     font-family: var(--secondary-font);
+}
+#our_values {
+    padding: 4rem 2rem;
+}
+
+.values {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.values > div {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.values > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.values img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.values h3 {
+    color: #333;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.values p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .values > div {
+        flex: 0 1 calc(50% - 2rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .values > div {
+        flex: 0 1 100%;
+        max-width: 400px;
+    }
 }
