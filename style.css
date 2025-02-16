@@ -204,7 +204,9 @@ button.btn_right:hover{
 }
 
 #Our_services{
-    background-color: #fff;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,233,209,1) 27%);
+    height: 70vh;
 }
 
 #Our_services h1{
