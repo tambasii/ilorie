@@ -202,3 +202,13 @@ button.btn_right:hover{
     font-size: 100xpx;
     line-height: 30px;
 }
+
+#Our_services{
+    background-color: #fff;
+}
+
+#Our_services h1{
+    color: orange;
+    font-size: 50px;
+    font-family: var(--secondary-font);
+}
