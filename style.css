@@ -102,6 +102,9 @@ body {
 
 .btn:hover {
     transform: translateY(-2px);
+   background-color: transparent;
+   outline: none;
+   border:2px #fff;
 }
 
 .btn-primary {
@@ -110,7 +113,7 @@ body {
 }
 
 .btn-secondary {
-    background: white;
+    background: rgb(104, 228, 104);
     color: var(--primary-color);
 }
 
