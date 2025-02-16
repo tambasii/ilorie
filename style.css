@@ -198,5 +198,7 @@ button.btn_right:hover{
 }
 
 .container_right-1 p{
+    color:rgb(21, 21, 48);
+    font-size: 100xpx;
     line-height: 30px;
 }
