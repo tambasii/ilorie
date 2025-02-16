@@ -104,7 +104,7 @@ body {
     transform: translateY(-2px);
     background-color: transparent;
     color: white; /* Ensures the text is white */
-    border: 2px solid white; /* Narrow white border */
+    border: 2px solid white; 
     border-radius: 2rem;
  }
  
