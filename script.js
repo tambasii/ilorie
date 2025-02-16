@@ -59,18 +59,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
-// Form Validation for Contact Forms (if any)
-function validateForm(event) {
-    const form = event.target;
-    const email = form.querySelector('input[type="email"]');
-    
-    if (!email.value.includes('@')) {
-        event.preventDefault();
-        alert('Please enter a valid email address');
-    }
-}
-
 // Add animation classes
 document.addEventListener('scroll', function() {
     const elements = document.querySelectorAll('.animate-on-scroll');
