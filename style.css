@@ -70,9 +70,12 @@ body {
 .hero .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    padding:80px 50px;
+    gap: 5rem;
+    padding:50px 80px;
     align-items: center;
+}
+.hero-content{
+    padding-right: 2rem;
 }
 
 .hero-content h1 {
