@@ -78,3 +78,4 @@ function isElementInViewport(element) {
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
 }
+ 
