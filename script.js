@@ -7,11 +7,19 @@ document.addEventListener("DOMContentLoaded", function () {
         contactForm.addEventListener("submit", function (event) {
             event.preventDefault();
 
+            // Remove any existing success message before adding a new one
+            let existingMessage = document.getElementById("success-message");
+            if (existingMessage) {
+                existingMessage.remove();
+            }
+
             // Create success message
             const successMessage = document.createElement("p");
+            successMessage.id = "success-message"; // Set an ID to prevent duplicates
             successMessage.textContent = "Your message has been sent successfully!";
             successMessage.style.color = "green";
             successMessage.style.fontWeight = "bold";
+            successMessage.style.marginTop = "10px";
 
             // Display message while keeping the form
             contactForm.insertAdjacentElement("afterend", successMessage);
