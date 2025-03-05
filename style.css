@@ -800,7 +800,9 @@ body {
 
 .btn-gradient:hover svg {
     transform: translateX(5px);
-}/* Values Section */
+}
+
+/* Values Section *//* Values Section */
 .values {
     background: var(--background-light);
     padding: 100px 0;
